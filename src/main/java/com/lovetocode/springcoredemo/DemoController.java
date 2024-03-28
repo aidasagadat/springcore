@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DemoController {
-    private  Coach myCoach;
+    private  Coach theCoach;
 
     public DemoController(Coach theCoach){
-        myCoach = theCoach;
+        theCoach = theCoach;
     }
 
 }
